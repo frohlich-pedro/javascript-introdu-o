@@ -38,5 +38,19 @@ for (let i = 0; i <= 30; i++) {
 }
 
 function contarVogais(texto) {
-  
+  let vogais;
+  for (let i = 0; i < texto.length; i++) {
+    if (texto.charAt(i) == "a" || texto.charAt(i) == "e" || texto.charAt(i) == "i" || texto.charAt(i) == "o" || texto.charAt(i) == "u") {
+      vogais++;
+    }
+  }
+  console.log(vogais);
+}
+
+function somarArray(x) {
+  let y;
+  for (let i = 0; i < x.length; i++) {
+    y += x[i];
+  }
+  console.log(y);
 }
