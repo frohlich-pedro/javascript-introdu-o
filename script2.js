@@ -3,12 +3,12 @@ function verificarSinal(x) {
 }
 
 function converterTemperatura(c) {
-  console.log((c + 9/5) + 32);
+  console.log((c * 9/5) + 32);
 }
 
 let i = 0;
 while (i < 100) {
-  console.log(i);
+  console.log(i += i);
   i++;
 }
 
