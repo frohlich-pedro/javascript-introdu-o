@@ -54,3 +54,24 @@ function somarArray(x) {
   }
   console.log(y);
 }
+
+function dobrarNumero(n) {
+  return n * 2;
+}
+
+i = 0;
+while (i <= 20) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+function capitalizar(texto) {
+  console.log(texto.charAt(0).toUpperCase() + texto.slice(1));
+}
+
+function anoBissexto(ano) {
+  if (ano % 4 === 0 && ano % 100 != 0) {
+    console.log('É bissexto');
+  }
+}
